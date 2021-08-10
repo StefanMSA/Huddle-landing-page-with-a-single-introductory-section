@@ -94,3 +94,11 @@ footer i {
     margin-top: 80px;
   }
 }
+@media (min-width:1900px) {
+  header {
+    margin-bottom: 50px;
+  }
+  footer i {
+    margin-top: 120px;
+  }
+}
