@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: #cccccc;
+  }
+  h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+  }
+  .vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .col-md-7 {
+    text-align: center;
+  }
+  .btn {
+    background-color: white ;
+    color: hsl(257, 40%, 49%);
+  }
+  .fab {
+    border: 3px solid;
+    border-radius: 100% !important;
+  }
+  .btn:hover {
+    background-color:hsl(300, 69%, 71%) ;
+    color: white;
+  }
+
+
+  .container {
+    background-image: url('bg-desktop.svg');
+    background-color: hsl(257, 40%, 49%);
+    height: 90vh;
+  }
+  .col-md-7 img {
+      width: 80%;
+      margin: auto;
+    }
+  .col-md-5 {
+    padding-right: 80px ;
+    padding-top: 80px !important;
+  }
+  footer i {
+    padding: 10px;
+    float: right ;
+    margin-right: 15px;
+    margin-top: 5px;
+  }
+  header i {
+    padding: 10px;
+    font-size: 32px;
+  }
+  header {
+      padding: 20px;
+      padding-left: 80px ;
+}
+  #facebook-icon {
+    margin-right:60px;
+}
+@media (max-width:400px) {
+.container {
+  height: 100vh;
+}
+header {
+  padding-left: 15px;
+  padding-bottom: 50px;
+}
+.col-md-7 img {
+  width: 90%;
+}
+.col-md-5 {
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.btn {
+  padding: 5px 70px;
+}
+footer {
+  text-align: center;
+}
+footer i {
+ float: none;
+ margin-top: 40px;
+}
+}
+@media (max-width:1500px) {
+  footer i {
+    margin-top: 80px;
+  }
+}
