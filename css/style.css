@@ -36,6 +36,7 @@
     background-image: url('bg-desktop.svg');
     background-color: hsl(257, 40%, 49%);
     height: 90vh;
+    background-repeat: no-repeat;
   }
   .col-lg-7 img {
       width: 80%;
